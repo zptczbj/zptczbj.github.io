@@ -1,0 +1,35 @@
+.banner{
+	height: 260px;
+	background: url("../img/manager_banner.jpg")center;
+}
+.connet .manager li {
+    padding: 30px 0 30px 162px;
+    position: relative;
+    min-height: 146px;
+    height: 146px;
+    border-top: 1px solid #e9e9e9;
+    vertical-align: bottom;
+}
+.connet .manager li:first-child{
+	border-top:none;
+    margin: -40px 0 30px;
+}
+.connet .manager img{
+	position: absolute;
+    top: 30px;
+    left: 0;
+    width: 126px;
+    height: 145px;
+}
+.connet .manager h3{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #333;
+}
+.connet .manager p{
+	font-size: 14px;
+    line-height: 30px;
+    color: #666;
+    padding-top: 16px;
+}

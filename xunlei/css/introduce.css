@@ -1,0 +1,11 @@
+.banner{
+	height: 260px;
+	background: url("../img/brief_banner.jpg")center;
+}
+.connet p{
+	color: #333;
+	text-indent: 2em;
+	font-size: 15px;
+	padding-bottom: 20px;
+	line-height: 30px;
+}

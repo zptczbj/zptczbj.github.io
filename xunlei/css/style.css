@@ -1,0 +1,143 @@
+.clearfix::after{
+	content:"";
+	display: block;
+	font-size: 0;
+	clear: both;
+	width: 0;
+	height: 0;
+
+}
+.center{
+	width: 1100px;
+	margin:0 auto;
+	position: relative;
+}
+
+.header{
+	margin-top: 12px;
+	height: 60px;
+}
+body{
+	font-family: "黑体";
+}
+h1.logo{
+	width: 100px;
+	height: 45px;
+	float: left;
+}
+h1.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	color: #666;
+	font-size: 16px;
+	text-decoration: none; 
+	display: inline-block;
+	padding: 24px 0;
+	margin: -8px 14px;
+	border-bottom: 3px solid #fff; 
+}
+.menu li a:hover{
+	color: #00a7ea;
+	border-bottom: 3px solid #00a7ea;
+}
+.connet h2{
+    font-size: 24px;
+    color: #333;
+    padding: 40px 0;
+    line-height: 24px;
+}
+.connet .nav{
+	position: absolute;
+	color: #666;
+	right: 4px;
+	top: 50px;
+	font-size:6px;
+}
+.connet .nav a{
+	padding: 0 4px;
+	color: #666;
+	text-decoration: none; 
+}
+.connet .nav a:hover{
+    text-decoration: underline;
+}
+.footer{
+	background-color: #eee;
+	height: 264px;
+	margin-top: 10px;
+}
+.footer .bottomlink {
+    padding-top: 70px;
+    font-size: 14px;
+    line-height: 32px;
+}
+.footer .bottomlink a {
+    color: #565656;
+    margin-right: 16px;
+    text-decoration: none; 
+}
+.footer .bottomlink a:hover{
+    text-decoration: underline;
+}
+.footer .contactus{
+	float: right;
+}
+.footer .contactus li{
+	float: left;
+}
+.footer .contactus .weixin{
+    display: block;
+    margin: -30px -10px 0 0;
+    width: 30px;
+    height: 25px;
+    background: url('../img/ico_footer.png');
+    position: relative;
+}
+.footer .contactus .weibo{
+    display: block;
+    margin:-30px 0 0 40px;
+    width: 30px;
+    height: 25px;
+    background: url('../img/ico_footer.png')-45px;
+}
+.footer .contactus a img{
+	position: absolute;
+	width: 170px;
+	left: -70px;
+	top:30px;
+	display:none;
+}
+.footer .contactus a:hover img{
+	display: block;
+}
+.contactus {
+text-indent: -9999em;
+font-size: 0;
+line-height: 0;
+}
+.footer .copyright{
+	color: #666;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.footer .copyright p a{
+	font-size:12px;
+	color: #666;
+	line-height: 24px;
+	margin-right: 6px;
+	text-decoration: none;
+}
+.footer .copyright .text{
+	color: #999;
+	line-height: 24px;
+}
+.footer .copyright p a:hover{
+	text-decoration: underline;
+}
