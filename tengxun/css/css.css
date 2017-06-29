@@ -1,0 +1,384 @@
+.clearfix::after{
+	content:"";
+	display: block;
+	font-size: 0;
+	clear: both;
+	width: 0;
+	height: 0;
+
+}
+.center{
+	width: 1250px;
+	margin:0 auto;
+	position: relative;
+}
+a{
+	color:#555;
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑";
+}
+.header{
+	height: 80px;
+}
+.header .logo{
+	width: 205px;
+	height: 40px;
+	background: url("../img/logo.png");
+	float: left;
+	margin-top: 20px;
+	position: relative;
+}
+.header .navline{
+	height: 3px;
+    width: 74px;
+    background: #2871d5;
+    position: absolute;
+    top: 0;
+    left: 260px;
+    z-index: 9;
+}
+.header .menu .menubth{
+	float: left;
+	margin-left: 50px;
+}
+.header .menu .menubth li{
+	float: left;
+}
+.header .menu .menubth li a{
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	color: #333;
+    font-size: 16px;
+    padding: 0 20px;
+    position: relative;
+    border-left: 1px solid #EEE;
+
+}
+.header .menu .menubth li:last-child{
+	border-right: 1px solid #EEE;
+}
+.header .menu .menubth li a:hover{
+	color:#388ddf;
+}
+.header .left{
+	float: right;
+	margin-top: -60px;
+}
+.header .left .tlink{
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: url("../img/ic_block.png") no-repeat;
+}
+.header .left .mobile{
+	background-position:-48px 0;
+	margin-right: 15px;
+}
+.header .left .mobile:hover{
+	background-position:-48px -48px;
+}
+.header .left .mac{
+	background-position:0 0;
+	margin-right: 15px;
+}
+.header .left .mac:hover{
+	background-position:0 -48px;
+}
+.header .left .global{
+	background-position:-96px 0;
+    margin-right: 15px;
+}
+.header .left .global:hover{
+	background-position:-96px -48px;
+}
+.header .left div{
+	float: left;
+	margin: 10px 0px 10px 10px;
+}
+.header .left div a{
+	color:#2871d5;
+	font-size:14px;
+}
+.header .left div a:hover{
+	text-decoration: underline;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner p{
+    color: #fff;
+    position: absolute;
+}
+.banner a{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    text-decoration: underline;
+}
+.banner .ban .title{
+    right:520px;
+    top: 230px;
+}
+.banner .ban p{
+    font-size: 20px;
+    right:140px;
+    top: 190px;
+}
+.banner .download a{
+    width: 243px;
+    height: 76px;
+    background: url("../img/banner_download.png")0 -152px;
+    display: block;
+    margin-left: 34px;
+    right:420px ;
+    top: 270px;
+}
+.banner .download a:hover{
+   background: url("../img/banner_download.png")0 0;
+}
+.banner .btn p{
+    font-size: 14px;
+    right: 540px;
+    top: 370px;
+}
+.banner .btn .nav .nav1{
+    right: 450px;
+    top: 370px;
+}
+.banner .btn .nav .nav2{
+    right: 374px;
+    top: 370px;
+}
+.blink {
+    padding-bottom: 27px;
+    text-align: center;
+    padding-top: 25px;
+}
+.midder .blink span{
+	line-height: 39px;
+    margin-right: 20px;
+    vertical-align: top;
+    font-size: 18px;
+    color: #555555;
+}
+.blink a {
+    margin: 0 25px;
+}
+.figures{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 40px auto;
+}
+.figures ul{
+	width:100%;
+}
+.figures li {
+    position: relative;
+    float: left;
+    width: 24.9%;
+}
+.figures li .sfea {
+    display: block;
+    height: 178px;
+    overflow: hidden;
+    position: relative;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.figures li figure {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.figures li img {
+    width: 100%;
+    max-width: 314px;
+    position: absolute;
+}
+figure figcaption{
+	position: absolute;
+	z-index:20;
+    bottom:0;
+    max-width:314px;
+    height:32px;      
+    width:100%;
+    font-weight: normal;
+    background-color:rgba(0,0,0,0.6);
+    text-align:center;
+    line-height:32px;
+}
+figure figcaption p{
+	color:#fff;
+	font-size: 14px;
+	z-index:25;
+}
+.midder .sfea .new{
+	z-index: 999;
+    position: absolute;
+    width: 56px;
+    display: block;
+    background: url("../img/beta_new.gif") no-repeat;
+    height: 56px;
+    right: 0;
+}
+.manage p {
+	position: absolute;
+    display: block;
+    color: #FFF;
+    margin-bottom: 15px;
+    line-height: 16px;
+}
+.manage .var {
+    font-size: 18px;
+    right: 15px;
+    top: 30px;
+    z-index:25;
+}
+.manage .pubtime {
+	font-size:10px;
+	right: 15px;
+	top: 50px;
+	z-index:25;
+
+}
+.manage a{
+	border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 182, 102);
+    text-align: center;
+    background: rgb(16, 212, 95) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+    width: 108px;
+}
+.manage .beta_download{
+	position: absolute;
+    z-index: 25;
+    right:15px;
+    top: 90px;
+}
+.sfea figure img {
+	transition: transform 0.4s;
+}
+.sfea figure:hover img {
+	transform: translateY(-10px);
+}
+.news {
+    min-width: 960px;
+    padding: 15px 20px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+}
+.news .title {
+    border-left: 2px solid #2871d5;
+    height: 1em;
+    line-height: 1em;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.news .title a {
+    color: #2871d5;
+    font-size: 16px;
+}
+.news .title a:hover{
+	text-decoration: underline;
+}
+.news ul li{
+    padding: 0 1.5% 0 0.5%;
+    background: url("../img/dot.png") 0 13px no-repeat;
+    float: left;
+    width: 22.9%;
+    line-height: 1.8em;
+}
+.news ul li a{
+	font-size: 14px;
+}
+.news ul li a:hover{
+	color: #2871d5;
+	text-decoration: underline;
+}
+.hzhb h3 {
+    font-size: 16px;
+    float: left;
+    margin-right: 5px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.hzhb ul {
+    display: block;
+    float: left;
+}
+.hzhb li {
+    float: left;
+    line-height: 30px;
+    margin: 0 3px;
+    display: inline;
+}
+.hzhb a {
+	font-size: 14px;
+    color: #2871d5;
+}
+.hzhb a:hover{
+	text-decoration: underline;
+}
+.link{
+	max-width: 1270px;
+	position: relative;
+}
+.link h3 {
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    line-height: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9d9d9d;
+}
+.link ul {
+    display: block;
+    float: left;
+    margin-left: 64px;
+}
+.link li {
+    line-height: 23px;
+    margin: 0 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+.link li a{
+	font-size: 14px;
+    color: #9d9d9d;
+    display: block;
+}
+.link li a:hover{
+	text-decoration: underline;
+}
+.footer {
+    font-size: 12px;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 15px 0;
+}
+.footer a{
+    color: #565656;
+    padding: 0 10px;
+}
+.footer .copyright {
+    color: #9E9E9E;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
